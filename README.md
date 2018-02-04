@@ -1,5 +1,5 @@
 # Led Matrix Board
-This is the board layout for a circuit containing two 8x8 LED matrices controlled by some MAX7219 drivers and an ESP8266 microcontroller.
+This is the board layout for a circuit containing two 8x8 LED matrices controlled by some MAX7219 drivers and an ESP8266 microcontroller. It is also possible to cascade multiple boards to get a wider display.
 
 # Required parts
  - [ESP2866 development board](https://www.gearbest.com/transmitters-receivers-module/pp_366523.html?wid=21)
@@ -10,6 +10,15 @@ This is the board layout for a circuit containing two 8x8 LED matrices controlle
  - 1x 4.4uF electrolytic capacitor
  - a power jack
  - some sockets and headers
+
+# Images
+![front view](images/front.jpg?raw=true "Front view")
+
+![rear view](images/back.jpg?raw=true "Rear view")
+
+![double](images/double.jpg?raw=true "Two cascaded boards")
+
+![single](images/single.jpg?raw=true "A single board")
 
 # Additional information
  - http://playground.arduino.cc/Main/LEDMatrix
